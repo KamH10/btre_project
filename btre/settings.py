@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'efff0=q0s+1(dy_%gan4+4cps3s3bcmtp1=yzxoc)qgl=c$34k'
+SECRET_KEY = 'TBD'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'btre.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'btredb',
+        'NAME': 'TBDdb',
         'USER': 'TBDuser',
         'PASSWORD': 'TBDpassword',
         'HOST': 'localhost'
@@ -149,6 +149,7 @@ EMAIL_HOST_USER = 'TBDemail'
 EMAIL_HOST_PASSWORD = 'TBDpassword'
 EMAIL_USE_TLS = True
 
+# s10e06-added the following for digital ocean
 try:
     from .local_settings import *
 except ImportError:
