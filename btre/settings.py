@@ -142,12 +142,13 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
 
-# Email config
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'TBDemail'
-EMAIL_HOST_PASSWORD = 'TBDpassword'
-EMAIL_USE_TLS = True
+# s10e06-commented out
+# # Email config
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_PORT = 587
+# EMAIL_HOST_USER = 'TBDemail'
+# EMAIL_HOST_PASSWORD = 'TBDpassword'
+# EMAIL_USE_TLS = True
 
 # s10e06-added the following for digital ocean
 try:
